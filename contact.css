@@ -1,0 +1,47 @@
+.card{
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid black;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(233, 233, 233);
+}
+table{
+    margin: 0 auto;
+}
+label{
+    font-size: larger;
+}
+input{
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5rem;
+    width: 15rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+textarea{
+    margin-left: 2rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+button{
+    padding: 0.7rem;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    margin-top: 1.8rem;
+    border-radius: 0.7rem;
+    margin: 0 auto;
+    background-color: white;
+    width: 5rem;
+}
+button:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}

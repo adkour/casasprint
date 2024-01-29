@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <title>CasaSprint</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h2>CasaSprint</h2></a>
+        <input type="search" placeholder="Cherchez un produit, une marque ou ..."/>
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a>
+            <a href="produits.html"><i class="fa-solid fa-shop"></i> Produits</a>
+            <!-- <a href="#"><i class="fa-solid fa-images"></i> Galerie</a> -->
+            <a href="contact.html"><i class="fa-solid fa-phone-flip"></i> Contactez-Nous</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h1>Contactez-nous</h1>
+            <form action="post" class="form">
+                <table>
+                    <tr>
+                        <td><label for="name">Nom Et Prénom </label></td>
+                        <td><input type="text" name="name" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Adresse Email </label></td>
+                        <td><input type="email" name="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Votre Message </label></td>
+                        <td><textarea name="message" id="message" cols="33" rows="6"></textarea></td>
+                    </tr>
+                </table>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

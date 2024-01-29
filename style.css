@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 0.3rem;
+}
+header{
+    background-color: rgb(233, 233, 233);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 99;
+}
+header h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+input[type="search"]{
+    font-weight: 600;
+    border-radius: 1rem;
+    text-align: center;
+    height: 2rem;
+    width: 35rem;
+    padding: 1.1rem;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+main{
+    padding: 1rem;
+    width: 100%;
+}
+
+main>.row{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main .row img{
+    width: 35rem;
+}
+main>.row>.col{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+main .row .col img{
+    width: 30rem;
+}
+
+.objectif{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.objectif img{
+    aspect-ratio: 1;
+    width: 15rem;
+}
+.objectif>.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.marques{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.marques>.row{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.marques>.row>a>img{
+    width: 10rem;
+}
+
+footer{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.produits-link{
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.produits-link img:first-child{
+    position: absolute;
+    z-index: 1;
+}
+.produits-link:hover img:first-child{
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+}
+.produits-link:hover img:nth-child(2){
+    position: relative;
+    z-index: 1;
+}
+.produits-link p{
+    margin-top: -15px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.marques-produits{
+    border-top: 2px solid #ccc;
+    padding: 0;
+}
+.marques-line{
+border-top: 2px solid #ccc;
+}
